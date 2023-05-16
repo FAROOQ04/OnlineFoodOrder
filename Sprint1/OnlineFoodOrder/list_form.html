@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="resources/css/style.css">
+    <style>
+      /* .card img {
+        height: 190px;
+
+      }
+      .card{
+        margin-top: 200px;
+        
+        
+      }
+      #btn{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      #btn li{
+        margin: 20px;
+        width: 100px;
+        border: 2px solid black;
+        text-align: center;
+        background-color: rgb(98, 253, 253);
+        border-radius: 20px;
+        
+      }
+      #btn li a{
+        color: black;
+      }
+      #bbtn{
+        background-color:gray;
+        color: black;
+        width: 90px;
+        border-radius: 20px;
+        margin-top: 10px;
+        font-weight: bold;
+        text-align: center;
+        margin-left:50%;
+        margin-top: 140px;
+
+      }
+      #container{
+        margin-left: 120px;
+      } */
+    </style>
+    <title>FoodieCorner</title>
+  </head>
+  <body class="bg-secondary">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand ml-2 p-0" href="index.html"
+        ><img
+          src="resources/img/logo-removebg-preview.png"
+          alt="FoodieCorner logo"
+          height="60"
+          width="60"
+          class="m-0 p-0"
+      /></a>
+      <button
+        class="navbar-toggler m-0"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-5">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only"></span
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="list.html">Explore Food</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="list_form.html">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about_us.html">About us</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="Login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="signin.html">Sign in</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container ">
+    <h1 class="display-4">
+      <img
+        src="resources/img/logo-removebg-preview.png"
+        alt="logo"
+        class=""
+        height="80px"
+      />Foodie Corner
+    </h1>
+    <ul class="navbar-nav ml-5" id="btn">
+      <div>
+        <li class="nav-item">
+          <a class="nav-link" href="#non veg">Non Veg</a>
+        </li>
+      </div>
+      <div>
+        <li class="nav-item">
+          <a class="nav-link" href="#veg">Veg</a>
+        </li>
+      </div>
+      <div>
+        <li class="nav-item">
+          <a class="nav-link" href="#meals">Meals</a>
+        </li>
+      </div>
+      <div>
+        <li class="nav-item">
+          <a class="nav-link" href="#sweets">Sweets</a>
+        </li>
+      </div>
+      <div>
+        <li class="nav-item">
+          <a class="nav-link" href="#ice cream">Ice creams</a>
+        </li>
+      </div>
+    </ul>
+
+    
+    <!-- <div class="container  " id="container"> -->
+      <div class="row" id="non veg">
+        
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/leg nv briyani.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Leg Piece Briyani</h5>
+                <p class="card-text">starting from 209</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/fry nv briyani.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Fry Piece Briyani</h5>
+                <p class="card-text">starting from 259</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card"id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/dum nv briyani.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Dum chicken Briyani</h5>
+                <p class="card-text">starting from 199</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/mutton nv briyani.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Mutton Briyani</h5>
+                <p class="card-text">starting from 359</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+        
+        <a href="list_form.html" id="bbtn">Go Back</a>
+      </div>
+      <div class="row" id="veg">
+        
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/panner veg biryani.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Panner VEG Biryani</h5>
+                <p class="card-text">starting from 259</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/parmeshwar veg biryani.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title"> VEG Briyani</h5>
+                <p class="card-text">starting from 199</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/royal veg birayani cum pulao.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Royal VEG Briyani</h5>
+                <p class="card-text">starting from 159</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/veg briyani nation.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">VEG Nation Briyani</h5>
+                <p class="card-text">starting from 139</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+        
+        <a href="list_form.html" id="bbtn">Go Back</a>
+      </div>
+      <div class="row" id="meals">
+        
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/houes of meals.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Houes of meals</h5>
+                <p class="card-text">starting from 169</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/thali express.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Thali Express</h5>
+                <p class="card-text">starting from 129</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/thali central.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Thali central</h5>
+                <p class="card-text">starting from 179</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/unlimited love for thalis.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title"> love for thalis</h5>
+                <p class="card-text h-100">starting from 159</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+        
+        <a href="list_form.html"  id="bbtn">Go Back</a>
+      </div>
+      <div class="row" id="sweets">
+        
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/kaju barif.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kaju Barif</h5>
+                <p class="card-text">starting from 999</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/kaja.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">kaja</h5>
+                <p class="card-text">starting from 99</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/ladu.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">ladu</h5>
+                <p class="card-text">starting from 299</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/gulab jamun.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Gulab jamun</h5>
+                <p class="card-text">starting from 299</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+        
+        <a href="list_form.html" id="bbtn">Go Back</a>
+      </div>
+      <div class="row" id="ice cream">
+        
+          <div class="col">
+            <div class="card" id="ifc" style="width:250px">
+              <img
+                src="resources/menu_items_img/chocalate ice cream.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">chocalate ice cream</h5>
+                <p class="card-text">starting from 99</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/vanila.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Vanila</h5>
+                <p class="card-text">starting from 99</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/butter scoth.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Butter Scoth</h5>
+                <p class="card-text">starting from 99</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" id="ifc" style="width: 250px">
+              <img
+                src="resources/menu_items_img/strawberry.jpeg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Strawberry</h5>
+                <p class="card-text">starting from 99</p>
+                <a href="#" class="btn btn-primary">order</a>
+              </div>
+            </div>
+          </div>
+        
+        <a href="list_form.html" id="bbtn">Go Back</a>
+      </div>
+    </div>
+  </div>
+  <footer class="bg-secondary m-0 p-0 text-center">
+    <P class="mb-0">Copyright © 2023 FoodieCorner | Designed by Team4</P>
+</footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
