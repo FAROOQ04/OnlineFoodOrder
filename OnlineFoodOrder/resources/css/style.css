@@ -1,0 +1,178 @@
+/* index.html css */
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  background-color: #e9ecef;
+}
+#bc {
+  background-image: url(../img/hbg.jpg);
+  background-position: center;
+  background-size: cover;
+  margin: 0px;
+}
+.container h1 {
+  color: #fff;
+  font-size: 70px;
+  text-align: center;
+  font-weight: bolder;
+  text-shadow: 4px 4px 6px black;
+}
+#p1 {
+  color: red;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 0px 7px 6px black;
+}
+.carousel-item img {
+  height: 500px;
+}
+#p2 {
+  color: red;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 1px 1px 4px black;
+}
+#mt {
+  margin-top: -30px;
+}
+.card img {
+  height: 190px;
+
+}
+#ifc{
+  margin-top: 200px;
+  
+  
+}
+#container{
+  margin-left: 120px;
+}
+/* about us css */
+#ac{
+  height: 350px;
+}
+#ac img{
+  height: 280px;
+}
+.about .card {
+  margin: 25px;
+  align-items: center;
+}
+.about .card img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
+#contain{
+  margin-right: 10px;
+}
+.none {
+width: 500px;
+font-style: italic;
+padding: 7px;
+text-align: justify;
+}
+
+/* login form css */
+table {
+  margin-top: 3%;
+  width: 450px;
+  height: 340px;
+  background-color: rgb(240, 245, 250);
+  border-radius: 25px;
+  box-shadow: 0px 0px 7px black;
+}
+th {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size: 26px;
+  text-decoration: underline;
+}
+td {
+  padding: 13px;
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+#sm{
+  border: 2px solid rgb(9, 9, 9);
+  margin-left: 160px;
+}
+#st table{
+  margin-left: 28%;
+  
+}
+#st table td{
+  padding-right: 15px;
+}
+/* add item css */
+#forms{
+  margin-left: 25%;
+  border: 2px solid black;
+  padding: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+#forms button{
+  margin: 20px 0px 0px 35%;
+} 
+#adds {
+  color: black;
+font-size: 30px;
+margin-bottom: 25px;
+margin-top:0px ;
+text-shadow: none;
+text-decoration: underline;
+}
+/* list css */
+#lc {
+  margin: 20px 0px;
+  padding: 0px;
+  border-radius: 40px;
+}
+#lc img {
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+#background{
+  background-color: #e9ecef;
+
+}
+/* login css */
+#login_form{
+  margin-left: 30%;
+  border: 2px solid rgb(7, 7, 7);
+  padding: 20px;
+  width: 40%;
+  margin-bottom: 20px;
+  line-height: 45px;
+  
+}
+#login {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  text-shadow: none;
+  text-decoration: underline;
+}
+/* signin css */
+#sing_form{
+  width: 45%;
+  margin-left: 31%;
+  border: 2px solid black;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+#sign{
+  color: black;
+  font-size: 30px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  text-shadow: none;
+  text-decoration: underline;
+}
