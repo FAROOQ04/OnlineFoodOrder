@@ -110,23 +110,39 @@ td {
   padding-right: 15px;
 }
 /* add item css */
-#forms{
+#addItemForm{
   margin-left: 25%;
   border: 2px solid black;
   padding: 30px;
   margin-top: 0;
   margin-bottom: 20px;
+  width: 45%;
 }
-#forms button{
+#addItemForm button{
   margin: 20px 0px 0px 35%;
+ 
 } 
-#adds {
+#addItemForm label{
+  margin-right: 30%;
+}
+#itemName{
+  margin-left: 38px;
+}
+#addedItems{
+  width: 40%;
+  border:2px solid black;
+}
+#addedItems img{
+  width: 80%;
+  height: 85%;
+}
+#additem {
   color: black;
-font-size: 30px;
-margin-bottom: 25px;
-margin-top:0px ;
-text-shadow: none;
-text-decoration: underline;
+  font-size: 30px;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  text-shadow: none;
+  text-decoration: underline;
 }
 /* list css */
 #lc {
